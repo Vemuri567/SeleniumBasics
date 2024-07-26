@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/VFC project/SeleniumClasses">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="Ex"></package>
+        </packages>
+        <!--<classes>
+            <class name="Ex.Test1">
+                <methods>
+                    <exclude name="DemoopencartLogin"/>
+                    <exclude name="opencartLogin"/>
+                    <exclude name="Amazon_Mobiles"/>
+                    <exclude name="HandleAlertPopups"/>
+                    <exclude name="dropdownshandling"/>
+                    <exclude name="frameshandling"/>
+                    <exclude name="myntraApp"/>
+                </methods>
+            </class>
+            <class name="Ex.Test2"><methods>
+                <include name="methd1"/>
+                <include name="method2"/>
+            </methods>
+            </class>
+            <class name="Ex.TestNgAnotations">
+                <methods>
+                    <include name="method5"/>
+                    <include name="method6"/>
+                    <include name="method7"/>
+                </methods>
+            </class>
+        </classes>-->
+    </test>
+</suite>
